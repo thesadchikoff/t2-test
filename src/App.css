@@ -6,6 +6,10 @@
   padding: 20px;
 }
 
+.app-title {
+  text-align: center;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -15,9 +19,8 @@
 }
 
 /* Телефон */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .cards {
-    grid-template-columns: 1fr;
-    justify-items: stretch;
+    flex-direction: column;
   }
 }
