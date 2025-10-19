@@ -1,0 +1,10 @@
+.portionsAndGiftsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-top: 15px;
+    color: var(--default-text-color);
+    p {
+        margin: 0;
+    }
+}

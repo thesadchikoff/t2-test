@@ -1,0 +1,9 @@
+.button {
+    color: var(--accent-color);
+    text-decoration: underline dashed;
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0;
+}

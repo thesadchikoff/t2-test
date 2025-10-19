@@ -1,0 +1,23 @@
+.app-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+/* Телефон */
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+  }
+}

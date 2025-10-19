@@ -1,0 +1,42 @@
+@import url('/public/fonts/exo.css');
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-image: url('./assets/pattern.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-synthesis: none;
+  --default-text-color: #666666;
+  --primary-text-color: #000000;
+  --accent-color: #1698D9;
+  --white-color: #FFFFFF;
+  --card-bg-color: #F2F2F2;
+  --select-card-color: #D91667;
+  --default-font-family: 'Trebuchet MS';
+  --app-font-family: 'Exo';
+  --attention-color: #FFFF66;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-width: 100vh;
+  min-height: 100vh;
+  color: var(--white-color);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.50) 100%);
+  font-family: var(--default-font-family), sans-serif;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  font-family: var(--app-font-family), sans-serif;
+}

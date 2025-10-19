@@ -1,0 +1,152 @@
+.cardSpace {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 320px;
+  height: 480px;
+  border-radius: 12px;
+  background-color: var(--accent-color);
+  padding: 5px;
+  box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	clip-path: polygon(
+    42px 0%,
+    100% 0%,
+    100% 100%,
+    0% 100%,
+    0% 42px
+  );
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  background-color: var(--card-bg-color);
+    position: relative;
+  border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    overflow: hidden;
+  clip-path: polygon(
+    40px 0%,
+    100% 0%,
+    100% 100%,
+    0% 100%,
+    0% 40px
+  );
+}
+
+.cat {
+    position: absolute;
+    width: 379px;
+    height: 371px;
+    left: -32.5px;
+    bottom: -91.5px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.weight {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    background-color: var(--accent-color);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 0;
+    color: var(--white-color);
+    span {
+        width: max-content;
+        height: max-content;
+        font-size: 42px;
+        margin: 0;
+        padding: 0;
+        line-height: 1;
+        word-wrap: break-word;
+    }
+    small {
+        line-height: 1;
+        word-wrap: break-word;
+        margin: 0;
+        padding: 0;
+        font-size: 21px;
+        font-weight: 400;
+    }
+}
+
+.head {
+    min-width: 210px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+}
+
+.title,
+.subtitle,
+.flavor,
+.weight {
+    margin: 0;
+}
+
+.title,
+.subtitle {
+    color: var(--primary-text-color);
+}
+
+.flavor {
+    color: var(--default-text-color);
+}
+
+.flavor {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cardButton {
+    margin-left: 5px;
+}
+
+.selectCardBackground {
+    background-color: var(--select-card-color);
+}
+
+.selectCardColor {
+    color: var(--select-card-color);
+}
+
+.isEmptyColor {
+    color: var(--attention-color);
+}
