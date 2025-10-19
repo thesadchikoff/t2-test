@@ -15,9 +15,8 @@
 }
 
 /* Телефон */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .cards {
-    grid-template-columns: 1fr;
-    justify-items: stretch;
+    flex-direction: column;
   }
 }

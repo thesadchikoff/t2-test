@@ -1,7 +1,7 @@
 export const declineProductName = (word: string): string => {
     const lower = word.toLowerCase();
 
-    const noDecline = ['фуа-гра', 'брюле', 'мюсли', 'какао'];
+    const noDecline = ['фуа-гра'];
 
     if (noDecline.includes(lower)) {
         return `с ${lower}`;
